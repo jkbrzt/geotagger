@@ -79,20 +79,20 @@ Geotag all images in a folder:
 
 .. code-block:: bash
 
-    $ geotagger tag path/to/photos
+    $ geotagger tag ./photos
 
 You can also just generate a GPX log for the dates without applying it:
 
 .. code-block:: bash
 
-    $ geotagger gpx path/to/photos > log.gpx
+    $ geotagger gpx ./photos > log.gpx
 
-The ``tag`` sub=command also optionally accepts a path to a GPX log file:
+The ``tag`` sub-command also optionally accepts a path to a GPX log file:
 
 .. code-block:: bash
 
-    $ geotagger gpx path/to/photos > log.gpx
-    $ geotagger tag path/to/photos log.gpx
+    $ geotagger gpx ./photos > log.gpx
+    $ geotagger tag ./photos log.gpx
 
 
 TODO
