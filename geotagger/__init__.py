@@ -2,7 +2,7 @@ import logging
 
 
 __author__ = 'Jakub Roztocil'
-__version__ = '0.0.1-alpha'
+__version__ = '0.0.2-beta'
 __licence__ = 'BSD'
 
 

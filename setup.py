@@ -2,6 +2,8 @@ import codecs
 
 from setuptools import setup, find_packages
 
+from geotagger import __version__
+
 
 def long_description():
     with codecs.open('README.rst', encoding='utf8') as f:
@@ -16,7 +18,7 @@ def install_requires():
 
 setup(
     name='geotagger',
-    version='0.0.1-beta',
+    version=__version__,
     description='Geotag photos with exiftool based on your Moves app history',
     long_description=long_description(),
     url='https://github.com/jkbrzt/geotagger',

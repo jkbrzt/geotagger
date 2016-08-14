@@ -9,7 +9,6 @@ try:
 except ImportError:
     from urllib import urlencode
 
-
 import requests
 
 from geotagger.utils import parse_date
