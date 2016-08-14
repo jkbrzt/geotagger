@@ -62,6 +62,9 @@ Installation
 Usage
 =====
 
+See ``$ geotagger --help`` and ``$ geotagger sub-command --help``.
+
+
 Moves authentication:
 ---------------------
 
