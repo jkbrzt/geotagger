@@ -28,7 +28,7 @@ How does it work?
 * You snap photos with your GPS-less camera.
 * GeoTagger uses the creation timestamps from photos
   to find your location at the time of taking them in your Moves log.
-* GeTagger is able to retrospectively add tags to even old photos,
+* GeoTagger is able to retrospectively add GEO tags to even old photos,
   as long as your location for the period is logged with Moves.
 
 
