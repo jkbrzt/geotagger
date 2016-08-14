@@ -65,12 +65,12 @@ Usage
 See ``$ geotagger --help`` and ``$ geotagger sub-command --help``.
 
 
-Moves authentication:
----------------------
+Moves authentication
+--------------------
 
 1. Create a new app under your Moves account: https://dev.moves-app.com/apps/new
 2. Specify ``http://127.0.0.1:7777/redirect`` as ``Redirect URI``.
-3. Create ``~/.geotagger.json`` with credentials for the app:
+3. Create ``~/.geotagger.json`` with credentials for your app:
    ``{"MOVES_ID": "<CLIENT_ID>", "MOVES_SECRET": "<CLIENT_SECRET>"}``
 4. Run ``geotagger auth`` and follow the instruction to authenticate the app.
 
