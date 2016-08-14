@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.topografix.com/GPX/1/1"
+     xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+     xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+
+{% for storyline in storylines %}
+{% for segment in storyline.segments %}
+<trk>
+    <name>storyline:{{ loop.index }} date:{{ storyline.date }} segment:{{ loop.index }} type:{{ segment.type }}</name>
+    <src>Moves via Geotagger</src>
+
+    {% if segment.place %}
+        <trkpt lat="{{ segment.place.location.lat }}"
+               lon="{{ segment.place.location.lon }}">
+            <ele>0</ele>
+            <time>{{ segment.startTime }}</time>
+        </trkpt>
+        <trkpt lat="{{ segment.place.location.lat }}"
+               lon="{{ segment.place.location.lon }}">
+            <ele>0</ele>
+            <time>{{ segment.endTime }}</time>
+        </trkpt>
+    {% endif %}
+
+    {% for activity in segment.activities %}
+        {% for tp in activity.trackPoints %}
+            <trkpt lat="{{ tp.lat }}" lon="{{ tp.lon }}">
+                <ele>0</ele>
+                <time>{{ tp.time }}</time>
+            </trkpt>
+        {% endfor %}
+    {% endfor %}
+
+</trk>
+{% endfor %}
+{% endfor %}
+
+
+</gpx>

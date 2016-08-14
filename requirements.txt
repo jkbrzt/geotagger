@@ -1,0 +1,6 @@
+click==6.6
+Flask==0.11.1
+moves==0.1
+requests==2.10.0
+python-dateutil==2.5.3
+arrow==0.8.0
