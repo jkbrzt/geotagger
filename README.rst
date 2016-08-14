@@ -1,7 +1,8 @@
 GeoTagger
 #########
 
-Geotag your photos using your smartphone location history.
+Geotag your photos from GPS-less cameras with your phone's location
+history data.
 
 
 .. image:: https://github.com/jkbrzt/geotagger/raw/master/geotagger.png
@@ -78,20 +79,20 @@ Geotag all images in a folder:
 
 .. code-block:: bash
 
-    $ geotagger tag ~/Desktop/photos
+    $ geotagger tag path/to/photos
 
 You can also just generate a GPX log for the dates without applying it:
 
 .. code-block:: bash
 
-    $ geotagger gpx ~/Desktop/photos
+    $ geotagger gpx path/to/photos > log.gpx
 
-The ``tag`` command also optionally accepts a path to a GPX log file
+The ``tag`` sub=command also optionally accepts a path to a GPX log file:
 
 .. code-block:: bash
 
-    $ geotagger gpx ~/Desktop/photos > ~/Desktop/photos/log.gpx
-    $ geotagger tag ~/Desktop/photos ~/Desktop/photos/log.gpx
+    $ geotagger gpx path/to/photos > log.gpx
+    $ geotagger tag path/to/photos log.gpx
 
 
 TODO
@@ -111,6 +112,12 @@ Jakub Roztocil
 
 * https://github.com/jkbrzt
 * https://twitter.com/jkbrzt
+
+
+Contribute
+==========
+
+* https://github.com/jkbrzt/geotagger
 
 
 Licence
