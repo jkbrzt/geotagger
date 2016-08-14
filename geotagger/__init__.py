@@ -3,7 +3,7 @@ import logging
 
 __author__ = 'Jakub Roztocil'
 __version__ = '0.0.2-beta'
-__licence__ = 'BSD'
+__licence__ = 'MIT'
 
 
 log = logging.getLogger(__name__)
