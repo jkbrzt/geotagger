@@ -91,7 +91,6 @@ The ``tag`` sub-command also optionally accepts a path to a GPX log file:
 
 .. code-block:: bash
 
-    $ geotagger gpx ./photos > log.gpx
     $ geotagger tag ./photos log.gpx
 
 
