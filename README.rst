@@ -5,7 +5,7 @@ Geotag your photos from GPS-less cameras with your phone's location
 history data.
 
 
-.. image:: https://github.com/jkbrzt/geotagger/raw/master/geotagger.png
+.. image:: https://github.com/jakubroztocil/geotagger/raw/master/geotagger.png
     :alt: GeoTagger
     :align: center
 
@@ -112,14 +112,15 @@ Contact
 
 Jakub Roztocil
 
-* https://github.com/jkbrzt
-* https://twitter.com/jkbrzt
+* https://github.com/jakubroztocil
+* https://twitter.com/jakubroztocil
+* https://roztocil.co
 
 
 Contribute
 ==========
 
-* https://github.com/jkbrzt/geotagger
+* https://github.com/jakubroztocil/geotagger
 
 
 Licence

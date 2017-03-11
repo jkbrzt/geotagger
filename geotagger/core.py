@@ -112,7 +112,7 @@ def cli(context, config, token_file):
     """
     Geotagger geotags images based on your Moves app history.
 
-    https://github.com/jkbrzt/geotagger
+    https://github.com/jakubroztocil/geotagger
 
     """
     config = get_config(config)
