@@ -47,7 +47,7 @@ class MovesClient:
             headers=headers
         )
         log.info('< HTTP %s', response.status_code)
-        log.debug(response.text)
+        log.debug('< %s', response.text)
         response.raise_for_status()
         return response.json()
 

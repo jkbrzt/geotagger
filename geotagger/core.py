@@ -37,7 +37,7 @@ def get_config(path):
         raise
 
     required = [
-        'MOVES__ID',
+        'MOVES_ID',
         'MOVES_SECRET',
     ]
     missing = []

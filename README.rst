@@ -107,6 +107,15 @@ TODO
 * Consider additional GPS log sources than Moves
 
 
+Changelog
+=========
+
+0.0.3 (2017-09-09)
+------------------
+
+* Fixed ``missing configuration: MOVES__ID`` #1
+
+
 Contact
 =======
 
